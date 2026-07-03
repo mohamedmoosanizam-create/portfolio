@@ -55,13 +55,19 @@ function Projects() {
               with attendance, marks and fee management.
             </p>
 
-              <a href="#" className="btn">
-                GitHub
-              </a>
+            <h4>Technologies</h4>
 
-              <a href="#" className="btn btn-outline">
-                Live Demo
-              </a>
+            <span>React • Django • MySQL</span>
+
+              <div className="project-buttons">
+  <a href="#" className="btn">
+    GitHub
+  </a>
+
+  <a href="#" className="btn btn-outline">
+    Live Demo
+  </a>
+
 
             </div>
 
@@ -124,8 +130,8 @@ function Projects() {
         </div>
 
       </div>
-
-    </section>
+      
+      </section>
   );
 }
 
